@@ -3,7 +3,7 @@ import { skillGroups } from '~/content/skills'
 </script>
 
 <template>
-  <section id="skills" class="py-20 border-b border-grid">
+  <section id="skills" class="py-28 border-b-2 border-grid-bright">
     <div class="max-w-5xl mx-auto px-6">
       <SectionLabel label="SKILLS" />
       <div class="grid md:grid-cols-3 gap-10">
@@ -15,7 +15,7 @@ import { skillGroups } from '~/content/skills'
                 <span class="font-mono text-xs text-ink-muted tracking-wide">{{ skill.label.toUpperCase() }}</span>
                 <span class="font-mono text-xs text-ink-faint">{{ skill.level }}</span>
               </div>
-              <div class="h-1 bg-bg-raised rounded-none overflow-hidden">
+              <div class="h-2 bg-bg-raised rounded-none overflow-hidden">
                 <div
                   class="h-full bg-cyber transition-all duration-700"
                   :style="{ width: `${skill.level}%` }"

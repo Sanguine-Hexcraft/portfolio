@@ -1,9 +1,9 @@
 <template>
-  <section id="about" class="py-20 border-b border-grid">
+  <section id="about" class="py-28 border-b-2 border-grid-bright">
     <div class="max-w-5xl mx-auto px-6">
       <SectionLabel label="ABOUT" />
       <div class="grid md:grid-cols-3 gap-12">
-        <div class="md:col-span-2 space-y-4 text-ink-muted text-base leading-relaxed">
+        <div class="md:col-span-2 space-y-5 text-ink-muted text-lg leading-relaxed">
           <p>
             I've spent 20 years building and maintaining real production web systems — not prototypes, not side projects, but live platforms that arts organizations and publishers depend on daily.
           </p>
@@ -14,7 +14,7 @@
             I'm looking for a team of smart, driven people where I can keep growing. Probably playing an RPG tonight.
           </p>
         </div>
-        <div class="font-mono text-xs space-y-2 text-ink-muted border-l border-grid pl-6">
+        <div class="font-mono text-xs space-y-3 text-ink-muted border-l-2 border-grid-bright pl-6">
           <div class="text-cyber mb-3 tracking-wider">// ACCOLADES</div>
           <div class="flex items-start gap-2">
             <span class="text-gold mt-0.5">◆</span>

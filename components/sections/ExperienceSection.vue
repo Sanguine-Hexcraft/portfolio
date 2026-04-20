@@ -11,14 +11,14 @@ function formatDate(date: string | null): string {
 </script>
 
 <template>
-  <section id="experience" class="py-20 border-b border-grid">
+  <section id="experience" class="py-28 border-b-2 border-grid-bright">
     <div class="max-w-5xl mx-auto px-6">
       <SectionLabel label="EXPERIENCE" />
       <div class="space-y-0">
         <div
           v-for="(entry, i) in experience"
           :key="`${entry.company}-${entry.startDate}`"
-          class="grid md:grid-cols-4 gap-6 py-8 border-b border-grid last:border-b-0"
+          class="grid md:grid-cols-4 gap-6 py-10 border-b-2 border-grid last:border-b-0"
         >
           <!-- Date col -->
           <div class="font-mono text-xs text-ink-faint space-y-1">
@@ -31,10 +31,10 @@ function formatDate(date: string | null): string {
           <!-- Content -->
           <div class="md:col-span-3">
             <div class="flex flex-wrap items-baseline gap-x-3 mb-2">
-              <h3 class="font-display font-semibold text-xl text-ink">{{ entry.role }}</h3>
+              <h3 class="font-display font-bold text-2xl text-ink">{{ entry.role }}</h3>
               <span class="font-mono text-xs text-cyber">// {{ entry.company }}</span>
             </div>
-            <p class="text-ink-muted text-sm leading-relaxed mb-4">{{ entry.description }}</p>
+            <p class="text-ink-muted text-base leading-relaxed mb-4">{{ entry.description }}</p>
             <ul class="space-y-1.5 mb-4">
               <li
                 v-for="bullet in entry.bullets"
@@ -49,7 +49,7 @@ function formatDate(date: string | null): string {
               <span
                 v-for="skill in entry.skills"
                 :key="skill"
-                class="font-mono text-xs px-2 py-0.5 border border-grid text-ink-faint bg-bg-surface"
+                class="font-mono text-xs px-2.5 py-1 border-2 border-grid text-ink-muted bg-bg-surface"
               >{{ skill }}</span>
             </div>
           </div>

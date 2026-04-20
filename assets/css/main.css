@@ -6,8 +6,8 @@
   --ink: #111118;
   --ink-muted: #4a4a6a;
   --ink-faint: #9090a8;
-  --border-grid: rgba(0, 0, 0, 0.08);
-  --border-grid-bright: rgba(0, 0, 0, 0.14);
+  --border-grid: rgba(0, 0, 0, 0.20);
+  --border-grid-bright: rgba(0, 0, 0, 0.38);
 }
 
 /* Dark mode overrides */
@@ -18,6 +18,6 @@
   --ink: #e2e8f0;
   --ink-muted: #8892a4;
   --ink-faint: #4a4a6a;
-  --border-grid: rgba(255, 255, 255, 0.06);
-  --border-grid-bright: rgba(255, 255, 255, 0.12);
+  --border-grid: rgba(255, 255, 255, 0.16);
+  --border-grid-bright: rgba(255, 255, 255, 0.30);
 }

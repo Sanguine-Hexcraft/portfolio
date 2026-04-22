@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     preset: 'github-pages',
   },
   app: {
-    baseURL: '/portfolio-2026/',
+    baseURL: '/portfolio/',
     head: {
       title: 'Portfolio',
       meta: [

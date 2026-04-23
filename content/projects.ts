@@ -17,6 +17,14 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    title: 'MDF Guide',
+    description: 'Festival schedule companion for Maryland Deathfest 2026, built as a Python learning project. Two interfaces: a terminal UI with ANSI-based filtering and sorting, and a live-filtering web UI built with FastAPI + HTMX. Data is scraped, merged, and hand-curated — deployed as a static site to GitHub Pages.',
+    tags: ['Python', 'FastAPI', 'HTMX', 'TUI', 'Web Scraping'],
+    url: 'https://sanguine-hexcraft.github.io/mdf-guide',
+    repo: 'https://github.com/Sanguine-Hexcraft/mdf-guide',
+    featured: true,
+  },
+  {
     title: 'Palantir',
     description: 'AI agent built in Python — a personal experiment in tool use, prompt engineering, and building something that actually thinks for you.',
     tags: ['Python', 'AI', 'LLM', 'CLI'],
